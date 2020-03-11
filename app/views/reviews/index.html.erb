@@ -3,3 +3,5 @@
   <li><%= "#{review.content} || Rating: #{review.rating}" %> </li>
   <% end %>
 </ul>
+
+<%= link_to 'Add a new review', new_restaurant_review_path(@restaurant) %>
